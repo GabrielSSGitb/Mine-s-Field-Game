@@ -1,6 +1,7 @@
 
 package minescampgame;
 
+
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -25,15 +26,23 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Label lbSubtittle;
     @FXML
+    private Label lbImg1;
+    @FXML
+    private Label lbImg2;
+    @FXML
     private void btnEvent(ActionEvent event) {
         Random ran = new Random();
         int action = ran.nextInt(2);
         if(action == 0) {
             life -= 10;
             lbLife.setText("Life: "+Integer.toString(life));
+            btn1.setText("0");
+            lbImg1.setText("💣");
         }else {
             point += 20;
             lbPoint.setText("Points: "+Integer.toString(point));
+            btn1.setText("10");
+            lbImg2.setText("🚀");
         };
         winOrLoseGame();
     }
