@@ -47,7 +47,7 @@ public class FXMLDocumentController implements Initializable {
             lbSubtittle.setText("Please, restart the program!!");
             lbSubtittle.setText("ERROR on Matrix!!");
         }else {
-            lbSubtittle.setText("ERROR on Matrix!!");
+            lbSubtittle.setText("");
         };
     };
     

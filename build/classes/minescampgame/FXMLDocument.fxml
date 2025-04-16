@@ -9,20 +9,28 @@
 
 <AnchorPane id="AnchorPane" prefHeight="866.0" prefWidth="1228.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minescampgame.FXMLDocumentController">
     <children>
-        <Button fx:id="btn1" layoutX="176.0" layoutY="233.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+        <Button fx:id="btn1" layoutX="325.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
         <Label fx:id="label" alignment="CENTER" layoutX="325.0" layoutY="56.0" minHeight="16" minWidth="69" prefHeight="68.0" prefWidth="530.0" text="Mine´s Camp" textFill="RED">
          <font>
             <Font name="Arial" size="36.0" />
          </font></Label>
       <Label fx:id="lbLife" layoutX="1083.0" layoutY="743.0" text="Life: 100" />
       <Label fx:id="lbPoint" layoutX="1083.0" layoutY="773.0" text="Points: 0" />
-      <Button fx:id="btn11" layoutX="250.0" layoutY="233.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
-      <Button fx:id="btn111" layoutX="313.0" layoutY="233.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
-      <Button fx:id="btn1111" layoutX="391.0" layoutY="233.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn11" layoutX="389.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn111" layoutX="448.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn1111" layoutX="514.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
       <Label fx:id="lbSubtittle" layoutX="418.0" layoutY="138.0" text="If you reach 100 points, you win!!!" textFill="#00ff55">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
+      <Button fx:id="btn11111" layoutX="580.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn111111" layoutX="642.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn1111111" layoutX="704.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn11111111" layoutX="763.0" layoutY="226.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn111111111" layoutX="325.0" layoutY="286.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn1111111111" layoutX="389.0" layoutY="286.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn11111111111" layoutX="448.0" layoutY="286.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
+      <Button fx:id="btn111111111111" layoutX="514.0" layoutY="286.0" onAction="#btnEvent" prefHeight="45.0" prefWidth="53.0" />
     </children>
 </AnchorPane>
